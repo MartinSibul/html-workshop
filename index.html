@@ -23,14 +23,14 @@
 <!-- Lõbusad faktid -->
 
 <div class="container">
-    <div class="card">
-        <!-- Tee see osa ise! -->
+    <div class="card" style="background-image: url(images/kilpkonn1.jpg); background-repeat: no-repeat; background-position: center;">
+
     </div>
     <div class="card">
-        <!-- Tee see osa ise! -->
+
     </div>
     <div class="card">
-        <!-- Tee see osa ise! -->
+
     </div>
 </div>
 
@@ -51,10 +51,21 @@
 <div>
     <h1>Lisainfo</h1>
     <div class="container">
-        <!-- Tee see osa ise! -->
+
     </div>
 </div>
-
+    <button id="1">Turtles</button>
 </body>
-    
+<script>
+    let button = document.getElementById("1")
+    button.addEventListener("click", function () {
+        let body = document.body;
+        body.style.background = "url(images/spinning-duck.gif)"
+
+
+        //var audio = document.getElementById("audio");
+        //<audio id="audio" src="images/practice.mp3"></audio>
+    })
+</script>
+
 </html>
